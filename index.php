@@ -1,7 +1,7 @@
 
 <?php
 
-function writeSecretSentence(string $PARAMETRE_1, string $PARAMETRE_2):string {
-    return $PARAMETRE_1 . ' s\'incline face à ' . $PARAMETRE_2 . ' en remplaçant ' . $PARAMETRE_1 . ' et '. $PARAMETRE_2;
+function writeSecretSentence(string $parametre_1, string $parametre_2):string {
+    return $parametre_1 . ' s\'incline face à ' . $parametre_2 . ' en remplaçant ' . $parametre_1 . ' et '. $parametre_2;
 }
 echo writeSecretSentence('lion', 'singe');
